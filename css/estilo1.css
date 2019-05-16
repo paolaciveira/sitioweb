@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'nooa_semiserifregular';
+    src: url('../css/fonts/nooa_demi-serif_demo-webfont.woff2') format('woff2'),
+    url('../css/fonts/nooa_demi-serif_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+      
+}
+
+
+
+@font-face {
+    font-family: 'neonregular';
+    src: url('../css/fonts/neon-webfont.woff2') format('woff2'),
+         url('../css/fonts/neon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'farrayregular';
+    src: url('../css/fonts/farray-webfont.woff2') format('woff2'),
+         url('../css/fonts/farray-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+       
+body {
+    background: black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(10, 10vh);
+}
+
+h1 {
+    grid-column: 1 / 11;
+    grid-row: 3;
+    font-family: 'farrayregular';
+    font-size: 12em;
+    display: block;
+    color: rgb(255, 0, 0);   
+    text-align: center;
+    letter-spacing: 10px;
+    text-decoration: none;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    z-index: 10;
+    mix-blend-mode: screen;
+}
+
+h4 {
+    grid-column: 4 / 8;
+    grid-row: 3;
+    padding-left: 10px;
+    font-family: 'farrayregular';
+    font-size: 12em;
+    display: block;
+    color: rgb(0, 110, 255);     
+    text-align: center;
+    letter-spacing: 10px;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+    z-index: 10;
+    mix-blend-mode: lighten;
+}
+
+h2 {
+    grid-column: 1 / 11;
+    grid-row: 5;
+    font-family: 'farrayregular';
+    font-size: 8em;
+    display: block;
+    color: rgb(255, 0, 0);    
+    text-align: center;
+    letter-spacing: 15px;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-right: 15px;
+    z-index: 20;
+    mix-blend-mode: screen;
+}
+
+h5 {
+    grid-column: 4 / 8;
+    grid-row: 5;
+    font-family: 'farrayregular';
+    padding-left: 10px;
+    font-size: 8em;
+    display: block;
+    color: rgb(0, 110, 255);    
+    text-align: center;
+    letter-spacing: 15px;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-left: 2px;
+    z-index: 20;
+    mix-blend-mode: lighten;
+}
+
+h3 {
+    grid-column: 1 / 11;
+    grid-row: 8;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
